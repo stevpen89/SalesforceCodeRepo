@@ -14,6 +14,7 @@ SELECT Current_Service_Activation_Date__c, Original_Service_Activation_Date__c, 
 FROM Service__c
 WHERE Status__c = 'Active'
 AND Current_Service_Activation_Date__c = null
+AND Original_Service_Activation_Date__c != null
 AND RecordType.Name = 'Security Service'
 ORDER BY Original_Service_Activation_Date__c
 DESC
