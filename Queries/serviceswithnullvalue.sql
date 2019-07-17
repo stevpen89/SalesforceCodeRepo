@@ -10,8 +10,11 @@ AND Current_Service_Activation_Date__c is null
 
 -----  SOQL  -----
 
-SELECT Current_Service_Activation_Date__c, Original_Service_Activation_Date__c, ID, RecordType.ID, RecordType.Name 
+SELECT Current_Service_Activation_Date__c, Original_Service_Activation_Date__c, ID, RecordType.ID, RecordType.Name
 FROM Service__c
 WHERE Status__c = 'Active'
 AND Current_Service_Activation_Date__c = null
 AND RecordType.Name = 'Security Service'
+ORDER BY Original_Service_Activation_Date__c
+DESC
+LIMIT 30
