@@ -1,0 +1,1 @@
+SELECT  ID, Install_Type__c, Status__c, RecordType.Name, Opportunity__c, Opportunity__r.RecordType.Name FROM Work_Order__c WHERE ID = 'a2F17000000OVBY'
