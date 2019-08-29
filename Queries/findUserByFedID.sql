@@ -1,0 +1,1 @@
+Select ID, Name, FederationIdentifier from User where FederationIdentifier = '137332'
