@@ -1,0 +1,105 @@
+body.sfdcBody{
+	background:black;
+}
+body .bodyDiv .outer .oRight, body .bodyDiv .outerNoSidebar {
+    background-color:rgb(66, 66, 66);
+}
+#sidebarDiv .sidebarModule .sidebarModuleBody {
+	background-color:rgb(90, 90, 90);
+    color:white;
+}
+#sidebarDiv .sidebarModuleHeader {
+	background-color:rgb(90, 90, 90);
+    color:white;
+}
+td{
+	background-color:rgb(90, 90, 90);
+    color:white;
+}
+.bPageHeader .phHeader .left .spacer, .bPageHeader .phHeader td.left {
+	background-color:rgb(90, 90, 90);
+    color:white;
+}
+.bPageHeader .phHeader td.right {
+	background-color:rgb(90, 90, 90);
+    color:white;
+}
+nav {
+    background-color:black;
+}
+a{
+	color:orange !important;
+}
+.zen .zen-tabMenu {
+	background-color: rgb(66, 66, 66);
+        color:white;
+}
+#sidebarCell, #sidebarDiv .sidebarModule, #sidebarDiv .nestedModule {
+	background-color:rgb(66, 66, 66);
+    color:white;
+}
+#sidebarDiv .sidebarModuleHeader h2 {
+    background:orange;
+    color:black;
+}
+#sidebarDiv .sidebarModule .sidebarModuleBody {
+    background:black;
+}
+.steps-text{
+    color:white;
+}
+.steps-header{
+    color:white;
+}
+.globalHeaderBar .zen-select .zen-trigger {
+    background-color:black;
+}
+.globalHeaderBar {
+    background-color:black;
+    background:black;
+}
+#sidebarDiv {
+    background-color: black;
+    background:black;
+}
+.bPageTitle .metadata {
+    background-color: rgb(120, 120, 120);
+    background: orange;
+    border:1px solid black;
+}
+.chatterexpando .feedpage{
+    background-color:black;
+    background:black;
+}
+.chatterexpando{
+    background:black;
+    border:1px solid black;
+}
+.zen .zen-tabMenu .zen-active{
+    background:black;
+    border:2px solid orange;
+}
+#Contact_Tab{
+    background:rgb(100,100,100);
+    border-radius:5px;
+}
+.homeTab .listViewport .subNav .linkBar, .homeTab .mComponent .cHeader, .homeTab .genericTable, .homeTab .bSubBlock, .homeTab .bPageBlock {
+    border-top: 3px solid Orange;
+}
+.bMyDashboard .bPageBlock .pbFooter, .bMyDashboard .bPageBlock, .bMyDashboard .bPageBlock .pbHeader .pbTitle .twisty {
+    background-color: orange;
+}
+.bMyDashboard .bPageBlock {
+    border-top-color: orange;
+}
+.homeTab .listViewport .subNav .linkBar, .homeTab .mComponent .cHeader, .homeTab .genericTable, .homeTab .bSubBlock, .homeTab .bPageBlock {
+    border-top: 3px solid black;
+}
+body .bPageBlock, body #bodyCell .bResource .secondaryPalette, body .secondaryPalette.bPageBlock, body .individualPalette .secondaryPalette.bPageBlock, body .bodyDiv .genericTable, body .genericPageBlockTable, body .bodyDiv .bSubBlock, body .bComponentBlock .bPageBlock, body .bMyDashboard .bPageBlock, body.rlHoverFrame .bPageBlock, body.subjectSelectionPopup div.choicesBox, body.lookupTab .secondaryPalette.bPageBlock, body.popupTab .secondaryPalette.bPageBlock, body.UserTagStatsPage .secondaryPalette.bPageBlock {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
