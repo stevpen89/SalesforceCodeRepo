@@ -1,0 +1,1 @@
+select id, name, permissionset.profileid, permissionset.profile.name from permissionset where PermissionsEditReadonlyFields = true
