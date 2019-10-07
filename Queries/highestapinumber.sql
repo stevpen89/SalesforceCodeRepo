@@ -1,6 +1,10 @@
-SELECT user.firstName, user.lastName, profile.name, user.isactive, user.employee_id__c 
+SELECT user.firstName, user.lastName, profile.name, user.isactive, federationidentifier, user.employee_id__c 
 FROM user 
 WHERE user.employee_id__c 
 LIKE '%API%'
-ORDER BY employee_id__c 
+or federationidentifier
+LIKE '%API%'
+or profile.name
+LIKE '%API%'
+ORDER BY federationidentifier 
 DESC
