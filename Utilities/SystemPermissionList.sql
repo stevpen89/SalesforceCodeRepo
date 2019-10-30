@@ -1,4 +1,4 @@
-SELECTId,
+SELECT Id,
 Name,
 Label,
 LicenseId,
