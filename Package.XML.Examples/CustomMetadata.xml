@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <types>
-      <members>*</members>
-      <name>Custom​Metadata</name>
+    <types>
+        <members>DocuSign_Template.LE_RN_MedDen_BRK</members>
+        <members>DocuSign_Template.LE_RN_MedDen_GRP</members>
+        <members>DocuSign_Template.LE_RN_Optional_BRK</members>
+        <members>DocuSign_Template.LE_RN_Optional_GRP</members>
+        <members>DocuSign_Template.LE_RN_Sole_BRK</members>
+        <members>DocuSign_Template.LE_RN_Sole_GRP</members>
+        <name>CustomMetadata</name>
     </types>
     <version>44.0</version>
 </Package>
+
+
+<!-- This only retrieves the records that belong to the custom metadata type, which is treated as a custom object. See 
+custom_metadata_type__mdt 
+-->
